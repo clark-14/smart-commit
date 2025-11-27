@@ -1,0 +1,23 @@
+Ignore macOS system files
+
+.DS_Store
+
+Ignore temporary files
+
+.log .tmp
+
+Ignore swap files
+
+*.swp
+
+Node-related (optional)
+
+node_modules/
+
+Python cache (optional)
+
+pycache/
+
+Shell script backup
+
+*.sh~

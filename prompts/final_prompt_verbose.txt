@@ -1,0 +1,17 @@
+You are a commit message expert. Analyze ALL the file changes below and generate a comprehensive conventional commit message.
+
+${ACCUMULATED_CHANGES}
+
+CRITICAL: Your message must reflect ALL ${FILE_COUNT} files listed above, not just some.
+
+Output format:
+Line 1: ${TYPE}${SCOPE}: <comprehensive description covering all changes> (max 72 chars)
+Line 2: (empty)
+Lines 3+: Detailed explanation (2-4 sentences, impersonal tone)
+
+Requirements:
+- The first line MUST summarize changes across all files
+- Use imperative mood ('add', 'fix', 'refactor')
+- Be specific about what changed
+- Mention key areas if multiple components affected
+

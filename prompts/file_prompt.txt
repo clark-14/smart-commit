@@ -1,0 +1,9 @@
+Analyze this git diff for a single file.
+${ACCUMULATED_CHANGES}
+<current_diff file="${FILE_NAME}">
+${FILE_DIFF}
+</current_diff>
+
+Describe what changed in ONE sentence (max 150 chars). Be factual and impersonal.
+Examples: 'Added user authentication', 'Fixed race condition', 'Updated validation'
+
